@@ -18,7 +18,7 @@ const Options2 = [
   {value: 'interactive page'}
 ]
 export default function Home() {
-  const istoggle = false
+  
   return (
     <div className={`grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-20 gap-11 ${be.className} text-[#FFFFFF] `}>
       <header className=' justify-self-start '>
