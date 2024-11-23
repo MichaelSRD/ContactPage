@@ -24,19 +24,19 @@ export default function Home() {
       <header className=' justify-self-start '>
         <Image src={'/logo.svg'} alt={''} width={100} height={100} />
       </header>
-      <main className="grid gap-8 row-start-2 items-center sm:items-start max-w-full md:max-w-[80%]">
-         <h1 className='text-4xl font-bold text-center md:text-[4rem] md:leading-[5rem]'>Interested in our business pricing?</h1>
-         <p className='text-center font-medium md:text-[2rem] md:pr-4  md:pl-4 lg:pr-36 lg:pl-36 '>Fill out the form to view details and we’ll contact you as soon as possible.</p>
-         <div className='bg-[#CDD5E0] p-5 rounded-lg  bg-opacity-25 '>
+      <main className="grid gap-8 row-start-2 items-center sm:items-start max-w-full md:max-w-[80%] lg:max-w-[70%]   ">
+         <h1 className='text-4xl font-bold text-center md:text-[5rem] md:leading-[5rem] lg:text-[5rem]'>Interested in our business pricing?</h1>
+         <p className='text-center font-medium md:text-[2rem] md:pr-4  md:pl-4 lg:pr-16 lg:pl-16  '>Fill out the form to view details and we’ll contact you as soon as possible.</p>
+         <div className='bg-[#CDD5E0] p-10 rounded-3xl  bg-opacity-25 '>
            <Form action="" className='grid gap-4 md:grid-cols-2'>
              <div className='grid'>
              <label htmlFor="" className='text-sm'>Name</label>
-             <input type="text" className='rounded-lg p-4 -mt-0 placeholder-[#111729] font-semibold text-[#111729]' placeholder='Ethan Johnson' />
+             <input type="text" className='rounded-2xl p-4 -mt-0 placeholder-[#111729] font-semibold text-[#111729]' placeholder='Ethan Johnson' />
              </div>
            
               <div className='grid'>
               <label htmlFor="" className='text-sm'>Company Email</label>
-              <input  type="text" className='rounded-lg p-4 mt-0 placeholder-[#111729] font-semibold text-[#111729]'  placeholder='ethan@johnson.com'/>
+              <input  type="text" className='rounded-2xl p-4 mt-0 placeholder-[#111729] font-semibold text-[#111729]'  placeholder='ethan@johnson.com'/>
               </div>
             
              <div> 
@@ -51,9 +51,9 @@ export default function Home() {
             
               <div className='grid md:col-span-2'>
               <label htmlFor="" className='text-sm'>Message</label>
-            <textarea name="" id="" className='rounded-lg p-4 mt-0 placeholder-[#111729] font-semibold h-44 text-[#111729]'  placeholder='50-100 employees' ></textarea> 
+            <textarea name="" id="" className='rounded-2xl p-4 mt-0 placeholder-[#111729] font-semibold h-44 lg:h-52 text-[#111729]'  placeholder='50-100 employees' ></textarea> 
               </div>
-              <div className='bg-[#ffff] p-4 flex justify-center font-semibold rounded-lg md:col-span-2'>
+              <div className='bg-[#ffff] p-4 flex justify-center font-semibold rounded-2xl md:col-span-2'>
               <p className='text-[#4036A9]'>Contact Sales</p> 
             </div> 
            </Form>

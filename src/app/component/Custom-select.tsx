@@ -44,7 +44,7 @@ export function CustomSelect ({options, placeholder}:CustomSelectProps){
               {isOpen && (
                 <div className='bg-white border-gray-400 border absolute w-full text-[#111729] font-semibold p-2 space-y-2 rounded-lg top-16 z-10'>
                 {options.map((option)=>(
-                 <p onClick={()=>handledOptionClick(option)} className="hover:bg-slate-400 cursor-pointer p-1 rounded-md " key={option.value}>{option.value}</p>
+                 <p onClick={()=>handledOptionClick(option)} className="hover:bg-slate-400 cursor-pointer p-1 rounded-2xl " key={option.value}>{option.value}</p>
                 ))}
               </div>
               )}
