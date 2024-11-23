@@ -27,7 +27,7 @@ export default function Home() {
       <main className="grid gap-8 row-start-2 items-center sm:items-start max-w-full md:max-w-[80%] lg:max-w-[70%]   ">
          <h1 className='text-4xl font-bold text-center md:text-[5rem] md:leading-[5rem] lg:text-[5rem]'>Interested in our business pricing?</h1>
          <p className='text-center font-medium md:text-[2rem] md:pr-4  md:pl-4 lg:pr-16 lg:pl-16  '>Fill out the form to view details and we’ll contact you as soon as possible.</p>
-         <div className='bg-[#CDD5E0] p-10 rounded-3xl  bg-opacity-25 '>
+         <div className='bg-[#CDD5E0] p-10 rounded-3xl  bg-opacity-15 '>
            <Form action="" className='grid gap-4 md:grid-cols-2'>
              <div className='grid'>
              <label htmlFor="" className='text-sm'>Name</label>
